@@ -52,6 +52,10 @@ nav a {
 nav a:hover {
   color: white;
 }
+.list-item img {
+  width: 1em;
+  height: 1.25em;
+}
 /*Covid Banner*/
 #covid-banner {
   display: flex;
@@ -83,4 +87,37 @@ nav a:hover {
 .hero-black {
   background-color: black;
   color: white;
+}
+#first-hero-body {
+  height: 90%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#first-hero-body h2 {
+  font-size: 2.25em;
+  font-family:sans-serif;
+}
+#first-hero-body h2 img {
+  width: 1em;
+  height: 1em;
+}
+#first-hero-body h6 {
+  color: rgb(190,0,0);
+  font-family: Courier, monospace;
+  font-size: 1rem;
+}
+#first-hero-body a {
+  color: #0071E3;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+#first-hero-body a:first-child {
+  margin-right: 2rem;
+}
+#first-hero-body h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 25px;
 }

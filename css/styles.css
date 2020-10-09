@@ -1,0 +1,60 @@
+/*Whole Page Styling*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: rgb(125,125,125);
+  text-decoration: none;
+  font-family:
+}
+a:hover {
+  color: white;
+}
+/*Navbar*/
+nav {
+  width: 100vw;
+  height: 50px;
+
+  background-color: rgb(25,22,30);
+  /*To center content horizontally*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav-content {
+  width: 80%;
+  display: flex;
+}
+.list-item {
+  display: inline-block;
+  margin: auto;
+}
+/*Covid Banner*/
+#covid-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5em;
+  text-align: center;
+  background-color: #0071E3;
+}
+#covid-banner a {
+  color:white;
+  text-decoration: none;
+}
+#covid-banner a:hover {
+  text-decoration: underline;
+}
+/*Shop online banner*/
+#shop-online-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5em;
+}
+#shop-online-banner a {
+  color: #06c;
+  text-decoration: none;
+}

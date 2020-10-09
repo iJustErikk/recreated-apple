@@ -3,14 +3,27 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
-nav a {
-  color: rgb(125,125,125);
-  text-decoration: none;
-  font-family:
+h2 {
+  font-size: 2em;
 }
-a:hover {
-  color: white;
+/* Fonts */
+@font-face {
+  font-family: Lato;
+  src: url(./Lato.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(./OpenSans.ttf);
+}
+/* Hero Styling */
+.hero {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 /*Navbar*/
 nav {
@@ -30,6 +43,14 @@ nav {
 .list-item {
   display: inline-block;
   margin: auto;
+}
+nav a {
+  color: rgb(125,125,125);
+  text-decoration: none;
+  font-family: Lato;
+}
+nav a:hover {
+  color: white;
 }
 /*Covid Banner*/
 #covid-banner {
@@ -57,4 +78,9 @@ nav {
 #shop-online-banner a {
   color: #06c;
   text-decoration: none;
+}
+/* First Hero */
+.hero-black {
+  background-color: black;
+  color: white;
 }

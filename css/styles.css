@@ -19,11 +19,31 @@ h2 {
 }
 /* Hero Styling */
 .hero {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.hero-black {
+  background-color: black;
+  color: white;
+}
+.hero-pale {
+  background-color: rgb(250.5,250.5,250.5);
+  color:black;
+}
+.hero-body {
+  height: 80%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Divider */
+.divider {
+  width: 100vw;
+  height: .75rem;
 }
 /*Navbar*/
 nav {
@@ -84,40 +104,49 @@ nav a:hover {
   text-decoration: none;
 }
 /* First Hero */
-.hero-black {
-  background-color: black;
-  color: white;
-}
-#first-hero-body {
-  height: 90%;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-#first-hero-body h2 {
+#first-hero h2 {
   font-size: 2.25em;
   font-family:sans-serif;
 }
-#first-hero-body h2 img {
+#first-hero h2 img {
   width: 1em;
   height: 1em;
 }
-#first-hero-body h6 {
+#first-hero h6 {
   color: rgb(190,0,0);
   font-family: Courier, monospace;
   font-size: 1rem;
 }
-#first-hero-body a {
+#first-hero a {
   color: #0071E3;
   text-decoration: none;
   font-size: 1.25em;
 }
-#first-hero-body a:first-child {
+#first-hero a:first-child {
   margin-right: 2rem;
 }
-#first-hero-body h3 {
+#first-hero h3 {
   font-family: "Lato", sans-serif;
   font-weight: 100;
   font-size: 25px;
+}
+/* Second hero */
+#second-hero a:first-child {
+  margin-right: 2rem;
+}
+#second-hero p {
+  color: #bf4800;
+  font-size: .75em;
+}
+#second-hero h1 {
+  font-size: 2.5em;
+}
+#second-hero h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+#second-hero a{
+  color: #0071E3;
+  text-decoration: none;
+  font-size: 1.25em;
 }

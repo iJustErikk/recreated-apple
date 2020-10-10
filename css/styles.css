@@ -181,3 +181,26 @@ nav a:hover {
 #third-hero {
   height: 85%;
 }
+/* Gridview */
+.gridview {
+  display: grid;
+  background-color: white;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+}
+/* Apple event */
+#apple-event {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: bottom;
+  background-image: url("https://www.apple.com/v/home/n/images/promos/october-teaser/apple_event__bf33m3s42esy_medium.jpg")
+  background-size: contain;
+}
+#apple-event-info {
+  width: 100%;
+}
+.gridview div {
+  border: 1px solid black;
+}

@@ -152,6 +152,9 @@ nav a:hover {
   font-size: 1.25em;
 }
 /* Third hero */
+#third-hero {
+  height: 100%;
+}
 #third-hero h2 {
   font-size: 2.5em;
 }
@@ -188,18 +191,34 @@ nav a:hover {
   width: 100vw;
   grid-template-columns: 1fr 1fr;
   column-gap: 1em;
+  padding: 0 1em 0 1em;
 }
 /* Apple event */
 #apple-event {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: bottom;
-  background-image: url("https://www.apple.com/v/home/n/images/promos/october-teaser/apple_event__bf33m3s42esy_medium.jpg")
-  background-size: contain;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://www.apple.com/v/home/n/images/promos/october-teaser/apple_event__bf33m3s42esy_large.jpg");
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 580px;
 }
 #apple-event-info {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 30%;
+}
+/* Apple one */
+#apple-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .gridview div {
   border: 1px solid black;

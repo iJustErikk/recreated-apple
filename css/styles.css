@@ -191,7 +191,7 @@ nav a:hover {
   width: 100vw;
   grid-template-columns: 1fr 1fr;
   column-gap: 1em;
-  padding: 0 1em 0 1em;
+  padding: 0 .75rem 0 .75rem;
 }
 /* Apple event */
 #apple-event {
@@ -210,8 +210,28 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  height: 20%;
+  margin-bottom: 2em;
+}
 
-  height: 30%;
+.multi-color {
+  background-image: linear-gradient(orangered,yellow);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color:transparent;
+  font-size: 1.25em;
+}
+#apple-event-info h5{
+  color: 	#E0CC3F;
+  font-size: 1.25em;
+  font-weight: 100;
+}
+#apple-event-info div a {
+  color: #0071E3;
+  text-decoration: none;
+  font-size: 1.125em;
 }
 /* Apple one */
 #apple-one {
@@ -219,7 +239,42 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 3em 0 3em 0;
+  font-family: Lato;
+  background-color: rgb(250.5,250.5,250.5);
 }
-.gridview div {
-  border: 1px solid black;
+#apple-one p {
+  color: #bf4800;
+  font-size: .75em;
+}
+#apple-one h3 img {
+  width: 1em;
+  height: 1em;
+}
+#apple-one h3 {
+  font-size: 2em;
+  font-weight:600;
+}
+#apple-one h5 {
+  font-size: 1.25em;
+  font-weight: 100;
+}
+#apple-one h5 sup {
+  font-family:fantasy;
+  font-weight 400;
+}
+#apple-one div a {
+  color: #0071E3;
+  text-decoration: none;
+}
+#apple-one-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 50%;
+  margin-top: -2em;
+}
+#apple-one img:nth-child(2) {
+  margin-top: 2em;
 }

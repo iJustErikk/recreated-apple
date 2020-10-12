@@ -45,6 +45,10 @@ h2 {
   width: 100vw;
   height: .75rem;
 }
+.half-divider {
+  width: 100%;
+  height: .75rem;
+}
 /*Navbar*/
 nav {
   width: 100vw;
@@ -277,4 +281,36 @@ nav a:hover {
 }
 #apple-one img:nth-child(2) {
   margin-top: 2em;
+}
+/*Apple fitness*/
+#apple-fitness {
+  background-image: url("https://www.apple.com/v/home/n/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_large.jpg");
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 580px;
+}
+/* Tiny World */
+#tiny-world {
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 580px;
+  background-image: url("https://www.apple.com/v/home/n/images/promos/tv-plus-tiny-world/tile__cauwwcyyn9hy_large.jpg");
+}
+/* Apple TV */
+#apple-tv {
+  background-size: 680px 370px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 580px;
+  background-image: url("https://www.apple.com/v/home/n/images/promos/bts-last-chance/bts_tile__f5qqm0vhrqye_large.jpg");
+}
+/* Apple radio */
+#apple-radio {
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 580px;
+  background-image: url("https://www.apple.com/v/home/n/images/promos/apple-music-live-radio/tile__cauwwcyyn9hy_large.jpg");
 }

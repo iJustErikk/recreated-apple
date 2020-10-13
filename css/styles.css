@@ -412,3 +412,22 @@ nav a:hover {
   color: #0071E3;
   text-decoration: none;
 }
+footer {
+  background-color: WhiteSmoke;
+  font-size: .75em;
+  color: Gray;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#footer-content {
+  width: 80%;
+  margin: 1.5em;
+}
+#footer-disclaimer p {
+  line-height: 1.75;
+}
+#footer-disclaimer hr {
+  margin-top: 1.75em;
+}

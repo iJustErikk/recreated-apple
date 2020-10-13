@@ -290,6 +290,33 @@ nav a:hover {
   background-position: center;
   height: 580px;
 }
+#apple-fitness-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+#apple-fitness-info p {
+  color: #bf4800;
+  font-size: .75em;
+}
+#apple-fitness-info h3 img {
+  width: 1em;
+  height: 1em;
+}
+#apple-fitness-info h3 {
+  font-size: 2.25em;
+  font-weight:600;
+}
+#apple-fitness-info h5 {
+  font-size: 1.25em;
+  font-weight: 100;
+}
+#apple-fitness-info div a {
+  color: #0071E3;
+  text-decoration: none;
+}
 /* Tiny World */
 #tiny-world {
   background-size: 1262px 580px;
@@ -297,6 +324,48 @@ nav a:hover {
   background-position: center;
   height: 580px;
   background-image: url("https://www.apple.com/v/home/n/images/promos/tv-plus-tiny-world/tile__cauwwcyyn9hy_large.jpg");
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: .9;
+}
+#tiny-world-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16em;
+  width: 100%;
+}
+#tiny-world-info img {
+  width: 1em;
+  height: 1em;
+}
+#tiny-world-info h4{
+  font-size: 2.5em;
+  margin-bottom: .75em;
+}
+#tiny-world-info h6 {
+  font-family: Stencil;
+  letter-spacing: 3px;
+}
+#tiny-world-info h6 span {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+#tiny-world h2:nth-of-type(1){
+  font-size: 6.5em;
+}
+#tiny-world h2:nth-of-type(2) {
+  font-size: 4em;
+  font-weight: 100;
+}
+#tiny-world a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25em;
 }
 /* Apple TV */
 #apple-tv {
@@ -305,6 +374,22 @@ nav a:hover {
   background-position: center;
   height: 580px;
   background-image: url("https://www.apple.com/v/home/n/images/promos/bts-last-chance/bts_tile__f5qqm0vhrqye_large.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+#apple-tv p {
+  color: #bf4800;
+  font-size: .75em;
+}
+#apple-tv h3 {
+  font-size: 2.125em;
+}
+#apple-tv a {
+  color: #0071E3;
+  text-decoration: none;
+  font-size: 1.125em;
 }
 /* Apple radio */
 #apple-radio {
@@ -313,4 +398,17 @@ nav a:hover {
   background-position: center;
   height: 580px;
   background-image: url("https://www.apple.com/v/home/n/images/promos/apple-music-live-radio/tile__cauwwcyyn9hy_large.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: 16.75%;
+}
+#apple-radio h3 {
+  font-size: 2.25em;
+}
+#apple-radio a {
+  padding-top: 1em;
+  color: #0071E3;
+  text-decoration: none;
 }

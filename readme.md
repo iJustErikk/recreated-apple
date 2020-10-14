@@ -1,5 +1,5 @@
 # A recreation of the Apple website as of 10/6/2020
-View [here](https://web.archive.org/web/20201006001048/https://www.apple.com/)
+View [here](https://web.archive.org/web/20201006001048/https://www.apple.com/) (wayback machine takes a while to load)
 ## Lessons learned:
 - Extensibility and ambiguity in CSS makes consise code
 - Sass is a tool to encourage this

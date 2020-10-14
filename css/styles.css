@@ -453,6 +453,7 @@ footer {
   text-decoration: underline;
 }
 #footer-nav ul {
+  margin-bottom: 3em;
   list-style-type: none;
   font-weight: 100;
 }
@@ -462,4 +463,33 @@ footer {
 }
 #footer-nav div {
   width: 20%;
+}
+/* Footer copyright */
+#footer-copyright {
+  line-height: 3;
+}
+#footer-copyright a{
+  color: #006ae3;
+  text-decoration: none;
+}
+#footer-copyright a:hover {
+  text-decoration: underline;
+}
+/* Footer author area and country chooser */
+#footer-copyright-country {
+  clear: both;
+}
+address {
+  display: inline-block;
+  margin-right: 3em;
+}
+#footer-copyright a {
+  color: grey;
+  letter-spacing: 1px;
+}
+#left {
+  float: left;
+}
+#right {
+  float: right;
 }

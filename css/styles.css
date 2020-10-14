@@ -265,7 +265,7 @@ nav a:hover {
 }
 #apple-one h5 sup {
   font-family:fantasy;
-  font-weight 400;
+  font-weight: 400;
 }
 #apple-one div a {
   color: #0071E3;
@@ -430,4 +430,36 @@ footer {
 }
 #footer-disclaimer hr {
   margin-top: 1.75em;
+}
+/* Footer nav */
+#footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 2;
+}
+#footer-nav h6, ul {
+  font-size: .7rem;
+}
+#footer-nav h6 {
+  color: black;
+
+}
+#footer-nav a {
+  color: gray;
+  text-decoration: none;
+}
+#footer-nav a:hover {
+  text-decoration: underline;
+}
+#footer-nav ul {
+  list-style-type: none;
+  font-weight: 100;
+}
+#footer-nav h6 {
+  margin-top: 1.15em;
+  font-weight: 600;
+}
+#footer-nav div {
+  width: 20%;
 }
